@@ -9,4 +9,5 @@ func main() {
 	fmt.Println("Value stored in variable a = ", a)
 	fmt.Println("Address of variable a = ", &a)
 	fmt.Println("Value stored in variable p = ", p)
+	fmt.Println(&a == p)
 }

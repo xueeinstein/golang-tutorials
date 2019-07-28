@@ -17,4 +17,10 @@ func main() {
 		{6, 2, 11},
 	}
 	fmt.Println(b)
+
+	// Multi-dim array copy via `:=`
+	c := a
+	c[0][0] = 1
+	fmt.Println("a: ", c)
+	fmt.Println("c: ", a)
 }

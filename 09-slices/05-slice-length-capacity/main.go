@@ -9,6 +9,8 @@ func main() {
 	*/
 	a := [6]int{10, 20, 30, 40, 50, 60}
 	s := a[1:4]
+	p := a[:3]
 
 	fmt.Printf("s = %v, len = %d, cap = %d\n", s, len(s), cap(s))
+	fmt.Printf("p = %v, len = %d, cap = %d\n", p, len(p), cap(p))
 }

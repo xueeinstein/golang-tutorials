@@ -12,7 +12,7 @@ func getStockPriceChange(prevPrice, currentPrice float64) (float64, float64) {
 }
 
 func main() {
-	prevStockPrice := 0.0
+	prevStockPrice := 10.0
 	currentStockPrice := 100000.0
 
 	change, percentChange := getStockPriceChange(prevStockPrice, currentStockPrice)

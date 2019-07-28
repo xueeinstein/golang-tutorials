@@ -29,4 +29,8 @@ func main() {
 
 	fmt.Println("5th Term of the Arithmetic series = ", ap.NthTerm(5))
 	fmt.Println("5th Term of the Geometric series = ", gp.NthTerm(5))
+	for i := 1; i < 5; i++ {
+		fmt.Printf("%dth Term of the Arithmetic series = %.0f\n", i, ap.NthTerm(i))
+	}
+
 }

@@ -11,4 +11,8 @@ func main() {
 	fmt.Println("slice1 = ", slice1)
 	fmt.Println("slice2 = ", slice2)
 	fmt.Println("After appending slice1 & slice2 = ", slice3)
+
+	slice1[0] = "JChen"
+	fmt.Println("slice1 = ", slice1)
+	fmt.Println("After modifying slice1, slice3 = ", slice3)
 }

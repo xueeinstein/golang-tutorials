@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// map[KeyType]ValueType
 	var m map[string]int
 	fmt.Println(m)
 	if m == nil {
@@ -10,5 +11,5 @@ func main() {
 	}
 
 	// The following statement will result in a runtime error
-	// m["key"] = 100
+	m["key"] = 100
 }

@@ -14,4 +14,6 @@ func main() {
 
 	fmt.Printf("firstName: %T, lastName: %T, age: %T, salary: %T\n",
 		firstName, lastName, age, salary)
+	var yes = true
+	fmt.Printf("yes: %T\n", yes)
 }
